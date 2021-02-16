@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+:root { --font-Rubik: "Rubik", sans-serif; }
+* { margin: 0px; padding: 0px; box-sizing: border-box; font-family: var(--font-Rubik) ; }
+header { display: flex; flex-direction: row; justify-content: flex-end; align-items: center; padding: 10px 10%; background: black; }
+.nav__links { list-style: none; }
+.nav__links li { display: inline-block; padding: 0px 20px; }
+.nav__links li a { color: white; text-decoration: none; font-size: 17px; }
+.nav__links li a:hover { color: rgb(200, 171, 82); transition: all .2 ease-in-out; }
+.contact button:hover { background: rgb(200, 171, 82); transition: all .2s ease-in-out; }
+.contact button { background: inherit; color: white; font-size: 17px; border: 2px solid rgb(200, 171, 82); border-radius: 4px; padding: 5px 10px; cursor: pointer; }
+.logo { margin-right: auto; }
