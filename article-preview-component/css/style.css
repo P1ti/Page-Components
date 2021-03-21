@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+:root {
+  --font-Manrope: 'Manrope', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-Manrope);
+  font-size: 13px;
+}
+
+body {
+  background: hsl(210, 46%, 95%);
+}
+
+.article-preview {
+  width: 600px;
+  height: 250px;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left {
+  background: url('../images/drawers.jpg') no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+}
+
+.description {
+  font-weight: 500;
+  color: hsl(214, 17%, 51%);
+}
+
+.name {
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+}
+
+.date {
+  font-weight: 500;
+  color: hsl(214, 17%, 51%);
+}
+
+.information-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.author-img > img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
